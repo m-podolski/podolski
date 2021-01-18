@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 2000 2000" class="bubble-hero" aria-hidden="true">
+  <defs>
+    <linearGradient id="Bubble_Hero" data-name="Bubble Hero" x1="609.17" y1="1920.74" x2="1390.83" y2="79.26" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0cf"/>
+      <stop offset="0.97" stop-color="#0e10f4"/>
+    </linearGradient>
+  </defs>
+  <circle class="bub-pla-bg" cx="1000" cy="1000" r="1000"/>
+</svg>

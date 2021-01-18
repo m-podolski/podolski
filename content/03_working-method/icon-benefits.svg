@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 281.84 316.49" class="icon icon-benefits" style="display:none" aria-hidden="true">
+  <g id="icon-benefits">
+    <path id="band" class="ben-1" d="M236.82,206.13l41,56.92h-60l-33,49.44-24-68.41ZM45,206.13,4,263.05H64l33,49.44,24-68.41Z"/>
+    <circle id="circle" class="ben-2" cx="140.92" cy="134" r="130"/>
+    <polygon id="star" class="ben-3" points="140.92 189.84 205.91 224 193.49 151.64 246.07 100.39 173.41 89.84 140.92 24 108.43 89.84 35.77 100.39 88.35 151.64 75.94 224 140.92 189.84"/>
+  </g>
+</svg>

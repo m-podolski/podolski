@@ -1,0 +1,70 @@
+
+@use "../base/base";
+@use "../base/colours";
+
+.form .honeypot {
+  position: absolute;
+  left: -9999px;
+}
+
+.form label {
+  @include base.font(600, normal, 0.6, body);
+}
+
+.form input,
+.form textarea {
+  width: 100%;
+  margin: calc( #{base.$unit} * 0.1 ) 0 calc( #{base.$unit} * 0.4 ) 0;
+  padding:
+    calc( #{base.$unit} * 0.4 )
+    calc( #{base.$unit} * 0.2 )
+    calc( #{base.$unit} * 0.2 )
+    calc( #{base.$unit} * 0.2 );
+  border: none;
+  border-bottom:
+    calc( #{base.$unit} * 0.2 )
+    solid
+    colours.$content-bg-text;
+  border-radius: base.$roundness-small;
+  background: colours.$content-bg-text;
+  color: colours.$content-running-text;
+}
+
+.form .valid,
+.form .invalid {
+  outline: none;
+}
+
+.form .valid {
+  border-bottom-color: colours.$content-light;
+}
+
+.form .invalid {
+  border-bottom-color: colours.$content-sec-text-dark;
+}
+
+.form ::placeholder {
+  color: colours.$content-text-medium;
+}
+
+.form .error-info {
+  margin: calc( #{base.$unit} * -0.2 ) 0 calc( #{base.$unit} * 0.4 ) 0;
+  padding: calc( #{base.$unit} * 0.2 );
+  border-radius: base.$roundness-small;
+  background: colours.$content-bg-text;
+  color: colours.$content-sec-text-dark;
+  @include base.font(600, normal, 0.5, body);
+}
+
+.form .noerror {
+  display: none;
+}
+
+.form .error {
+  display: block;
+}
+
+.form .button-submit {
+  display: block;
+  margin: 0.5rem auto;
+}

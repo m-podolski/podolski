@@ -1,0 +1,14 @@
+
+title: Employer
+permissions:
+  access:
+    panel: false
+    site: true
+    settings: false
+    users: false
+  files: false
+  languages: false
+  pages: false
+  site: false
+  user: false
+  users: false

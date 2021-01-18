@@ -1,0 +1,63 @@
+lang: de
+contact: Kontakt
+intro: Einleitung
+
+nav-pri: Hauptnavigation
+nav-sec: Zusatznavigation
+nav-btn: Menü
+nav-skip: Hauptmenü überspringen
+nav-top: Oben
+nav-close: Schließen
+
+lightbox-prev: Vorheriges Bild
+lightbox-next: Nächstes Bild
+lightbox-counter: von
+
+tax-filter-label: Filter
+tax-filter-skip: Filtermenü überspringen
+tax-filter-skip-target: Filtermenü überspungen
+
+tax-info-published: Veröffentlicht
+tax-info-updated: Aktualisiert
+
+blog-continue: Weiterlesen...
+
+pagination-label: Pagination
+pagination-next: Weiter
+pagination-prev: Zurück
+
+tabs-top: Zurück zur Tab-Auswahl
+tabs-files-file: Datei
+tabs-files-modified: Geändert
+tabs-files-size: Größe
+tabs-files-time: Uhr
+
+cform-adress: Anrede
+cform-adress-ph: Herr/Frau/Andere
+cform-adress-err: Bitte hinterlassen Sie eine Anrede (nur Buchstaben, ".", "-" und " ")
+cform-name: Vor- und Nachname
+cform-name-ph: Vorname Nachname
+cform-name-err: Bitte Geben Sie Vor- und Nachnamen getrennt durch ein Leerzeichen ein (nur Buchstaben, "-" und " ")
+cform-org: Organisation
+cform-org-ph: Fa. Mustersen
+cform-org-err: 2 bis 100 Buchstaben oder Ziffern
+cform-email: Email
+cform-email-ph: name@mail.de
+cform-email-err: Bitte geben Sie eine gültige E-Mail-Adresse ein (z.B. name@mail.de)
+cform-msg: Ihre Nachricht
+cform-msg-err: Bitte schreiben Sie eine kurze Nachricht (25 bis 3000 Zeichen)
+cform-upload: Dateianhänge
+cform-upload-info: Max. 10 Dateien, max. Dateigröße 5 MB (jpg, png, gif, pdf, docx, rtf, odt, md, xlsx, csv, ods)
+cform-submit: Senden
+cform-success: Ihre Nachricht wurde gesendet, danke. Ich werde schnellstmöglich antworten! Um das Formular erneut zu senden, laden Sie bitte die Seite neu.
+cform-alerts-info: Dieses Feld wurde nicht korrekt ausgefüllt
+cform-alerts-fail: Das Formular konnte nicht gesendet werden!
+cform-files-count: Sie können max. 10 Dateien hochladen!
+cform-files-fail: Die Datei konnte nicht hochgeladen werden!
+cform-files-size: ist größer als 5 MB!
+cform-files-type: is kein erlaubter Dateityp!
+
+lform-user: Benutzer
+lform-password: Passwort
+lform-err: Die eingegebenen Daten sind nicht korrekt!
+lform-submit: Login

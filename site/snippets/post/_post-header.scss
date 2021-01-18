@@ -1,0 +1,16 @@
+
+@use "../base/base";
+@use "../base/colours";
+
+
+.rubrication {
+  @include base.font(800, normal, 0.9, body);
+}
+
+.rubrication-title {
+  color: colours.$site-hero-light;
+}
+
+.rubrication-category {
+  color: colours.$content-running-text-bright;
+}

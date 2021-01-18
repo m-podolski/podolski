@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 800" class="icon icon-graphic-concept" style="display:none" aria-hidden="true">
+  <g id="icon-graphic-concept">
+    <circle id="background" class="gra-con-1" cx="400" cy="400" r="400"/>
+    <g id="arms">
+      <line class="gra-con-2" x1="320" y1="260" x2="360" y2="340"/>
+      <line class="gra-con-2" x1="520" y1="320" x2="460" y2="360"/>
+      <line class="gra-con-2" x1="400" y1="458.11" x2="400" y2="580"/>
+      <line class="gra-con-2" x1="480" y1="440" x2="560" y2="500"/>
+      <line class="gra-con-2" x1="240" y1="400" x2="300" y2="400"/>
+    </g>
+    <g id="panel-image">
+      <rect class="gra-con-2" x="520.06" y="180" width="139.94" height="139.5"/>
+      <line class="gra-con-3" x1="560" y1="280" x2="620" y2="220"/>
+      <line class="gra-con-3" x1="560" y1="220" x2="620" y2="280"/>
+    </g>
+    <g id="panel-text">
+      <rect class="gra-con-2" x="80" y="320" width="159.94" height="200"/>
+      <line class="gra-con-3" x1="120" y1="358.11" x2="200" y2="358.11"/>
+      <line class="gra-con-3" x1="120" y1="398.11" x2="200" y2="398.11"/>
+      <line class="gra-con-3" x1="120" y1="438.11" x2="200" y2="438.11"/>
+      <line class="gra-con-3" x1="120" y1="478.11" x2="200" y2="478.11"/>
+    </g>
+    <ellipse id="bubble-middle" class="gra-con-2" cx="400" cy="398.11" rx="100" ry="80"/>
+    <ellipse id="bubble3" class="gra-con-2" cx="620" cy="510" rx="80" ry="50"/>
+    <circle id="bubble1" class="gra-con-2" cx="300" cy="219.06" r="59.06"/>
+    <circle id="bubble2" class="gra-con-2" cx="400" cy="630" r="80"/>
+  </g>
+</svg>

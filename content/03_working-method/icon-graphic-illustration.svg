@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 800" class="icon icon-graphic-illustration" style="display:none" aria-hidden="true">
+    <g id="icon-graphic-illustration">
+      <circle id="background" class="gra-ill-1" cx="400" cy="400" r="400"/>
+      <g id="image">
+        <rect id="image-background" class="gra-ill-2" x="200" y="180" width="320" height="440"/>
+        <ellipse id="head" class="gra-ill-3" cx="360" cy="349.41" rx="72.94" ry="89.41"/>
+        <path id="body" class="gra-ill-3" d="M220,600c0-90.2,70-135.29,140-135.29S500,509.8,500,600Z"/>
+        <rect id="image-frame" class="gra-ill-4" x="200" y="180" width="320" height="440"/>
+        <circle class="gra-ill-3" cx="390" cy="323" r="10"/>
+        <circle class="gra-ill-3" cx="330" cy="323" r="10"/>
+      </g>
+      <path id="stache" class="gra-ill-5" d="M386.81,360c-17.07,0-26.81,4.25-26.81,4.25S350.49,360,333.61,360c-24.7,0-30.21,14.22-53.19,11.4,22.79,39.89,66.49,30.4,79.79,17.1,13.3,13.3,57,22.79,79.79-17.1C416.83,374.22,411.5,360,386.81,360Z"/>
+      <g id="pencil">
+        <rect class="gra-ill-6" x="494.34" y="295.67" width="192.89" height="48.22" transform="translate(-80.42 347.45) rotate(-30.79)"/>
+        <polygon class="gra-ill-6" points="495.59 348.43 456.15 400 520.27 389.86 495.59 348.43"/>
+        <polygon class="gra-ill-4" points="471.93 379.37 456.15 400 481.8 395.94 471.93 379.37"/>
+        <path class="gra-ill-7" d="M670.25,234h28.22a20,20,0,0,1,20,20v8.22a20,20,0,0,1-20,20H670.25a0,0,0,0,1,0,0V234A0,0,0,0,1,670.25,234Z" transform="translate(-34.25 391.76) rotate(-30.79)"/>
+      </g>
+    </g>
+</svg>

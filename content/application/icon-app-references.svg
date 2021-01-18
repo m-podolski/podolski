@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 800" class="icon icon-app-references" style="display:none" aria-hidden="true">
+  <g id="icon-app-references">
+    <circle id="background" class="app-ref-1" cx="400" cy="400" r="400"/>
+    <path id="speechbubble" class="app-ref-2" d="M400,180c-121.5,0-220,85.07-220,190,0,58,30.1,109.92,77.54,144.77L240,620l85.44-71.2A251,251,0,0,0,400,560c121.5,0,220-85.07,220-190S521.5,180,400,180Z"/>
+    <path id="bang" class="app-ref-3" d="M433.85,446.15A33.85,33.85,0,1,1,400,412.31,33.85,33.85,0,0,1,433.85,446.15ZM450.77,260H349.23l25.39,118.46h50.76Z"/>
+  </g>
+</svg>

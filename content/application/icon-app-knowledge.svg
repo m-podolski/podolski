@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 800" class="icon icon-app-knowledge" style="display:none" aria-hidden="true">
+  <g id="icon-app-knowledge">
+    <circle id="background" class="app-kno-1" cx="400" cy="400" r="400"/>
+    <path id="bulb" class="app-kno-2" d="M540,360a140,140,0,0,0-280,0c0,100,80,120,80,220H460C460,480,540,460,540,360Z"/>
+    <path id="reflection" class="app-kno-3" d="M400,260A101.11,101.11,0,0,0,298.89,361.11"/>
+    <g id="shine">
+      <line class="app-kno-4" x1="493.75" y1="205.12" x2="523.75" y2="153.16"/>
+      <line class="app-kno-4" x1="562.38" y1="273.75" x2="614.34" y2="243.75"/>
+      <line class="app-kno-4" x1="587.5" y1="367.5" x2="647.5" y2="367.5"/>
+      <line class="app-kno-4" x1="562.38" y1="461.25" x2="614.34" y2="491.25"/>
+      <line class="app-kno-4" x1="237.62" y1="461.25" x2="185.66" y2="491.25"/>
+      <line class="app-kno-4" x1="212.5" y1="367.5" x2="152.5" y2="367.5"/>
+      <line class="app-kno-4" x1="237.62" y1="273.75" x2="185.66" y2="243.75"/>
+      <line class="app-kno-4" x1="306.25" y1="205.12" x2="276.25" y2="153.16"/>
+      <line class="app-kno-4" x1="400" y1="180" x2="400" y2="120"/>
+    </g>
+    <g id="socket">
+      <line class="app-kno-5" x1="340" y1="660" x2="460" y2="660"/>
+      <line class="app-kno-5" x1="340" y1="620" x2="460" y2="620"/>
+      <line class="app-kno-5" x1="360" y1="700" x2="440" y2="700"/>
+    </g>
+  </g>
+</svg>

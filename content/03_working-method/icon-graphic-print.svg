@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 800" class="icon icon-graphic-print" style="display:none" aria-hidden="true">
+  <g id="icon-graphic-print">
+    <circle id="background" class="gra-pri-1" cx="400" cy="400" r="400"/>
+    <rect id="sheet" class="gra-pri-2" x="220" y="180" width="360" height="440"/>
+    <g id="text-block2">
+      <line class="gra-pri-3" x1="440" y1="460" x2="520" y2="460"/>
+      <line class="gra-pri-3" x1="440" y1="420" x2="520" y2="420"/>
+    </g>
+    <g id="text-block1">
+      <line class="gra-pri-2" x1="260" y1="580" x2="400" y2="580"/>
+      <line class="gra-pri-2" x1="260" y1="540" x2="400" y2="540"/>
+      <line class="gra-pri-2" x1="260" y1="500" x2="400" y2="500"/>
+      <line class="gra-pri-2" x1="260" y1="460" x2="400" y2="460"/>
+      <line class="gra-pri-2" x1="260" y1="420" x2="400" y2="420"/>
+    </g>
+    <g id="panel-image">
+      <rect class="gra-pri-4" x="260" y="220" width="140" height="160"/>
+      <g>
+        <line class="gra-pri-3" x1="300" y1="340" x2="360" y2="260"/>
+        <line class="gra-pri-3" x1="300" y1="260" x2="360" y2="340"/>
+      </g>
+    </g>
+    <polygon class="gra-pri-2" points="488.2 357.83 456.25 380 453.65 341.2 416.4 330.04 445.12 303.81 430.62 267.73 469.03 273.83 488.2 240 507.37 273.83 545.78 267.73 531.28 303.81 560 330.04 522.75 341.2 520.15 380 488.2 357.83"/>
+  </g>
+</svg>

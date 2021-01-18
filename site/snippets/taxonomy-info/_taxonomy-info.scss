@@ -1,0 +1,38 @@
+
+@use "../base/base";
+@use "../base/colours";
+
+$tax-info-breakpoint: 40em;
+
+.tax-info {
+  @extend %content;
+  padding: unset;
+
+  @media screen and (min-width: $tax-info-breakpoint) {
+
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    column-gap: calc( #{base.$unit} * 0.4 );
+  }
+}
+
+.tax-info-tag {
+  grid-column: 2 / 3;
+}
+
+.tax-info-list {
+  padding: 0;
+}
+
+.tax-info-list-item {
+  display: inline;
+  list-style: none;
+}
+
+.header .tax-info {
+  margin: unset;
+}
+
+.header .tax-info-cat {
+  color: colours.$content-running-text-bright;
+}

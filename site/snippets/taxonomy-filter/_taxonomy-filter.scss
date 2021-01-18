@@ -1,0 +1,80 @@
+
+@use "../base/base";
+@use "../base/colours";
+
+.tax-filter {
+  @extend %content;
+  padding-left: unset;
+  background: colours.$content-extra-light;
+  border-radius: base.$roundness;
+}
+
+.label-tax-filter {
+  padding: calc( #{base.$unit} * 0.2 );
+  background: colours.$content-light;
+  border-radius:
+  base.$roundness
+  base.$roundness
+  0
+  0;
+  @include base.font(800, normal, 0.7, body);
+  letter-spacing: calc( #{base.$unit} * 0.02 );
+  text-align: center;
+}
+
+.tax-filter-cat {
+  margin: calc( #{base.$unit} * 0.1 );
+  padding: calc( #{base.$unit} * 0.2 );
+  border-radius: base.$roundness base.$roundness 0 0;
+}
+
+.tax-filter-cat-btn {
+  @extend .button-primary;
+  width: 100%;
+}
+
+.tax-filter-taglist {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: stretch;
+  max-height: 100vh;
+  transition: max-height base.$contTrans ease-in-out;
+  padding: calc( #{base.$unit} * 0.2 );
+  list-style: none;
+}
+
+.tax-filter-taglist-closed {
+  max-height: 0;
+  overflow: hidden;
+  margin: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.tax-filter-taglist-item {
+  flex: 1 1 auto;
+  margin: calc( #{base.$unit} * 0.1 );
+}
+
+.tax-filter-tag-btn {
+  @extend %button;
+  width: 100%;
+  background: colours.$content-running-text-bright;
+  border-color: colours.$content-dark;
+  color: colours.$content-extra-dark;
+  @include base.font(800, normal, 0.6, body);
+
+  &:hover,
+  &:focus {
+    background: colours.$content-extra-dark;
+    border-color: colours.$content-running-text-bright;
+    color: colours.$content-running-text-bright;
+  }
+  &:active,
+  &.tax-filter-tag-btn-selected {
+    background: colours.$content-running-text-bright;
+    border-color: colours.$site-nav-ind;
+    color: colours.$content-extra-dark;
+    @include base.font(800, italic, 0.6, body);
+  }
+}

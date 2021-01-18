@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 800" class="icon icon-web-frontend" style="display:none" aria-hidden="true">
+  <g id="icon-web-frontend">
+    <circle id="background" class="web-fro-1" cx="400" cy="400" r="400"/>
+    <rect id="screen-back" class="web-fro-2" x="220" y="200" width="440" height="320"/>
+    <rect id="screen-front-background" class="web-fro-3" x="180" y="240" width="440" height="320"/>
+    <g id="panels">
+      <rect class="web-fro-4" x="222.44" y="280" width="217.56" height="140" rx="10"/>
+      <path class="web-fro-5" d="M232.44,460.14H430a10,10,0,0,1,10,10V560a0,0,0,0,1,0,0H222.44a0,0,0,0,1,0,0V470.14A10,10,0,0,1,232.44,460.14Z"/>
+      <rect class="web-fro-5" x="481.8" y="280" width="99.75" height="180" rx="10"/>
+      <path class="web-fro-5" d="M490,500h81.55a10,10,0,0,1,10,10v50a0,0,0,0,1,0,0H480a0,0,0,0,1,0,0V510A10,10,0,0,1,490,500Z"/>
+    </g>
+    <rect id="screen-front-frame" class="web-fro-6" x="180" y="240" width="440" height="320"/>
+  </g>
+</svg>

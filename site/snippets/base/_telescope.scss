@@ -1,0 +1,31 @@
+
+@use "./colours";
+
+$illustration-stroke-width: 10px;
+
+.illustration-telescope {
+  display: block;
+  width: 100%;
+}
+
+.ill-tel-1, .ill-tel-4 {
+  fill: none;
+}
+
+.ill-tel-1, .ill-tel-3 {
+  stroke: colours.$icon-light;
+}
+
+.ill-tel-1, .ill-tel-2, .ill-tel-3, .ill-tel-4 {
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: $illustration-stroke-width;
+}
+
+.ill-tel-2, .ill-tel-3 {
+  fill: colours.$icon-fill;
+}
+
+.ill-tel-2, .ill-tel-4 {
+  stroke: colours.$icon-dark;
+}

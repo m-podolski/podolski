@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 800" class="icon icon-web-concept" style="display:none" aria-hidden="true">
+  <g id="icon-web-concept">
+    <circle id="background" class="web-con-1" cx="400" cy="400" r="400"/>
+    <g id="panel2">
+      <rect class="web-con-2" x="440.5" y="141.5" width="160" height="200"/>
+      <rect class="web-con-3" x="480" y="181" width="80" height="120"/>
+    </g>
+    <g id="panel1">
+      <rect class="web-con-2" x="140.5" y="299.5" width="160" height="200"/>
+      <circle class="web-con-4" cx="220" cy="400" r="39.5"/>
+    </g>
+    <path class="web-con-4" d="M300.5,400.5c80,0,59-159,140-158"/>
+    <path class="web-con-4" d="M300.5,400.5c80,0,59,161,140,160"/>
+    <g id="panel3">
+      <rect class="web-con-2" x="440.5" y="460.5" width="160" height="200"/>
+      <line class="web-con-5" x1="480" y1="621" x2="560" y2="501"/>
+      <line class="web-con-5" x1="480" y1="501" x2="560" y2="621"/>
+    </g>
+  </g>
+</svg>

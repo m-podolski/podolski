@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 800" class="icon icon-graphic-typo" style="display:none" aria-hidden="true">
+  <g id="icon-graphic-typo">
+    <circle id="background" class="gra-typ-1" cx="400" cy="400" r="400"/>
+    <g id="letters">
+      <path id="a" class="gra-typ-2" d="M582.73,561.82,468.18,180H353.64L239.09,561.82H220V600h76.36V561.82H277.27l22.91-76.37H445.27l22.91,76.37H449.09V600H601.82V561.82ZM311.64,447.27l61.09-203.63,61.09,203.63Z"/>
+    </g>
+  </g>
+</svg>

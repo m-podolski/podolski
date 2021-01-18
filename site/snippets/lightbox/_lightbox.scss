@@ -1,0 +1,27 @@
+
+@use "../base/base";
+@use "../base/colours";
+
+.lightbox {
+  // display: flex;
+  margin-top: unset;
+  background: colours.$content-bg-light;
+}
+
+.lightbox-content {
+  margin: 0;
+}
+
+.lightbox-image {
+  // margin: 0;
+}
+
+.lightbox-caption {
+  margin: base.$unit calc( #{base.$viewfactor} * 3 );
+
+}
+
+.button-lightbox {
+  @extend .button-primary;
+  @include base.font(1000, normal, 0.9, disp);
+}

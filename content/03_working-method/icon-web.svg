@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 800" class="icon icon-web" style="display:none" aria-hidden="true">
+  <g id="icon-web">
+    <circle id="background" class="web-1" cx="400" cy="400" r="400"/>
+    <g id="inner-node">
+      <line class="web-2" x1="680" y1="380.01" x2="400" y2="400"/>
+      <line class="web-2" x1="400" y1="400" x2="179.99" y2="520"/>
+      <line class="web-2" x1="400" y1="400" x2="500" y2="140"/>
+      <line class="web-2" x1="186.61" y1="220" x2="400" y2="400"/>
+      <line class="web-2" x1="469.99" y1="650" x2="400" y2="400"/>
+      <circle class="web-3" cx="400.01" cy="400.01" r="99.99"/>
+    </g>
+    <g id="outer-nodes">
+      <polygon class="web-4" points="680 380.01 500 140 186.61 215.1 179.99 520 469.99 650 680 380.01"/>
+      <circle class="web-5" cx="179.99" cy="520" r="59.98"/>
+      <circle class="web-5" cx="680" cy="380.01" r="80"/>
+      <circle class="web-5" cx="500" cy="140" r="60"/>
+      <circle class="web-5" cx="186.61" cy="215.1" r="64.9"/>
+      <circle class="web-5" cx="469.99" cy="650" r="70"/>
+    </g>
+  </g>
+</svg>

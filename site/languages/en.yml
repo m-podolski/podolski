@@ -1,0 +1,63 @@
+lang: en
+contact: Contact
+intro: Introduction
+
+nav-pri: Main Navigation
+nav-sec: Additional Navigation
+nav-btn: Menu
+nav-skip: Skip main menu
+nav-top: Top
+nav-close: Close
+
+lightbox-prev: Previous image
+lightbox-next: Next image
+lightbox-counter: of
+
+tax-filter-label: Filters
+tax-filter-skip: Skip filter panel
+tax-filter-skip-target: filter panel skipped
+
+tax-info-published: Published
+tax-info-updated: Updated
+
+blog-continue: Continue reading...
+
+pagination-label: Pagination
+pagination-next: Next
+pagination-prev: Previous
+
+tabs-top: Back to Tab-Selection
+tabs-files-file: File
+tabs-files-modified: Modified
+tabs-files-size: Size
+tabs-files-time:
+
+cform-adress: Adress
+cform-adress-ph: Mr./Mrs./Other
+cform-adress-err: Please leave an adress  (only letters, ".", "-" and " ")
+cform-name: First and last name
+cform-name-ph: First name Last name
+cform-name-err: Please leave first and last name separated by a space  (only letters, -" and " ")
+cform-org: Organisation
+cform-org-ph: Example Ltd.
+cform-org-err: 2 to 100 letters or numbers
+cform-email: Email
+cform-email-ph: name@mail.de
+cform-email-err: Please leave a valid email-adress (e.g. name@mail.de)
+cform-msg: Your message
+cform-msg-err: Please leave a short message (25 - 3000 characters)
+cform-upload: File attachments
+cform-upload-info: Max. 10 files, max. file size 5 MB each (jpg, png, gif, pdf, docx, rtf, odt, md, xlsx, csv, ods)
+cform-submit: Send
+cform-success: Your message has been sent, thank you. We will get back to you soon! To send a new message just reload the page.
+cform-alerts-info: This field has not been filled in correctly
+cform-alerts-fail: The form could not be sent!
+cform-files-count: You may only upload up to 10 files!
+cform-files-fail: The file could not be uploaded!
+cform-files-size: is larger than 5 MB!
+cform-files-type: is not an allowed file type!
+
+lform-user: User
+lform-password: Password
+lform-err: The entered data is not correct!
+lform-submit: Login

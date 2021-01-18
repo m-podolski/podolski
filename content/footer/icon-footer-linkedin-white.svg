@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" class="icon icon-linkedin-white" style="display:none" aria-hidden="true">
+  <defs>
+    <style>
+      .foo-lin-1 { fill: white; }
+      .foo-lin-2 { fill: #069; }
+    </style>
+  </defs>
+  <g id="icon-linkedin-white">
+    <circle id="background" class="foo-lin-1" cx="100" cy="100" r="100"/>
+    <path id="in" class="foo-lin-2" d="M68.17,151.69V72.31H41.87v79.38h26.3Zm-13.26-90c9.21,0,15-6.1,15-13.73-.18-7.8-5.74-13.74-14.77-13.74s-15,5.94-15,13.74c0,7.63,5.73,13.73,14.6,13.73Zm28,90h26.31V107.31a18,18,0,0,1,.87-6.45c1.9-4.75,6.23-9.66,13.5-9.66,9.51,0,13.32,7.28,13.32,18v42.52h26.31v-45.5c0-24.37-13-35.71-30.29-35.71-14.19,0-20.42,8-23.88,13.37h.17V72.31H83c.34,7.45,0,79.38,0,79.38Z"/>
+  </g>
+</svg>

@@ -1,0 +1,41 @@
+
+@use "../snippets/base/base";
+@use "../snippets/base/bubbles";
+@use "../snippets/base/colours";
+@use "../snippets/base/fonts";
+@use "../snippets/lightbox/lightbox";
+@use "../snippets/navigation/navigation";
+@use "../snippets/pagination/pagination";
+@use "../snippets/taxonomy-info/taxonomy-info";
+
+
+.template-project {
+  background: colours.$content-bg-light;
+}
+
+.template-project .header {
+  min-height: unset;
+  padding: base.$unit calc( #{base.$viewfactor} * 3 );
+}
+
+.template-project .main {
+  padding: unset;
+}
+
+.template-project .main > *:not(.lightbox) {
+  padding: base.$unit calc( #{base.$viewfactor} * 3 );
+}
+
+.template-project .heading {
+  padding: unset;
+  @include base.font(1000, normal, 1.5, disp);
+  color: colours.$content-text-medium;
+  text-align: center;
+}
+
+.template-project .button-close {
+
+  position: absolute;
+  right: 0;
+  @include base.font(1000, normal, 0.9, disp);
+}
