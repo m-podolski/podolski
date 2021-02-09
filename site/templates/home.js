@@ -7,8 +7,12 @@ import {
   } from '../icon-iterator.js';
 import {
   init as initContactForm
-} from '../contactform.js';
+  } from '../contactform.js';
+import {
+  init as initProject
+  } from '../data.js';
 
 initNav();
 placeIcons();
 initContactForm();
+initProject();

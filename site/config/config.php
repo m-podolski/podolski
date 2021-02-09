@@ -5,6 +5,7 @@
  * Note: Never include more than one return statement, all options go within this single return array
  * All config options: https://getkirby.com/docs/reference/system/options
  */
+
 return [
   'api' => [
     'basicAuth'   => true

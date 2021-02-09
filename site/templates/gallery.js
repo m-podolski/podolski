@@ -11,12 +11,12 @@ import {
 import {
   init as initContactForm
   } from '../contactform.js';
-import {
-  init as initProjects
-  } from '../projects.js';
+// import {
+//   init as initProjects
+//   } from '../projects.js';
 
 initNav();
 placeIcons();
 initTaxfilter();
 initContactForm();
-initProjects();
+// initProjects();

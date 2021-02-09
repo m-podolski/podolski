@@ -4,7 +4,6 @@
 <head>
   <?php snippet('base/head') ?>
   <?php snippet('base/meta-image-site') ?>
-  <script>const csrf = "<?= csrf() ?>";</script>
 </head>
 
 <body class="template-<?= $page->template() ?> page-<?= $page->uid() ?>">
