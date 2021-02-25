@@ -7,7 +7,7 @@ const conf = {
   controlsStateInd: 'selected',
   controlsMenuStateInd: {
     attr: 'aria-expanded',
-    val: 'true'
+    val: 'true',
   },
   subcontrolsList: '.tax-filter-taglist',
   subcontrolsListState: 'tax-filter-taglist-closed',
@@ -16,7 +16,7 @@ const conf = {
   targetsRoot: '.cards',
   target: '.card',
   targetState: 'card-hidden',
-  url: `${document.location.pathname}.json`
+  url: `${ document.location.pathname }.json`,
 };
 
 function getNodes() {
@@ -33,9 +33,10 @@ function getNodes() {
     controls,
     subcontrols,
     subcontrolsList,
-    target
-  }
+    target,
+  };
 }
+
 const dom = getNodes();
 
 function setInitialState() {
@@ -49,6 +50,7 @@ function setInitialState() {
     control.setAttribute('tabindex', '-1');
     control.disabled = true;
   }
+
   for (const subcontrol of dom.subcontrols) {
     // Initial Subcontrols-display-state (conf.subcontrolsListState)
     // is set in template to prevent flashing
@@ -63,8 +65,7 @@ function toggle(e, subcontrolsList, subcontrols) {
   e.target.classList.toggle(conf.controlsStateInd);
   // Control-ARIA-state
   const isExpanded = e.target.getAttribute(conf.controlsMenuStateInd.attr) ===
-    conf.controlsMenuStateInd.val ?
-    true : false;
+    conf.controlsMenuStateInd.val;
   e.target.setAttribute(conf.controlsMenuStateInd.attr, !isExpanded);
   // Subcontrols-display-state
   subcontrolsList.classList.toggle(conf.subcontrolsListState);
@@ -88,10 +89,10 @@ async function fetchTaxonomy() {
     return Promise.resolve(data);
 
   } else {
-    const message = `Resource not found: ${response.status}`;
+    const message = `Resource not found: ${ response.status }`;
     return Promise.reject(message);
   }
-};
+}
 
 let taxonomyObj = {};
 
@@ -104,6 +105,7 @@ function enableFilter(taxObj) {
     control.setAttribute('tabindex', '0');
     control.disabled = false;
   }
+
   taxonomyObj = taxObj;
 }
 
@@ -121,7 +123,9 @@ function selectFilters(e) {
     filterTags.push(taxTagClicked);
     // Remove tag for every button deselected
   } else if (taxTagClicked !== false) {
-    filterTags = filterTags.filter((tag) => { return tag !== taxTagClicked });
+    filterTags = filterTags.filter((tag) => {
+      return tag !== taxTagClicked;
+    });
   }
 
   // Trigger search function
@@ -150,13 +154,17 @@ function searchTaxonomies(taxonomyObj, filterTags) {
         tags.push(value);
       }
     }
+
     // Find entries that match selected taxtags
-    const matches = tags.filter((val) => { return filterTags.includes(val) });
+    const matches = tags.filter((val) => {
+      return filterTags.includes(val);
+    });
     // Add URL to results
     if (matches.length !== 0) {
       urls.push(taxonomy.url);
     }
   }
+
   // When finished, trigger display function
   displayResults(urls, dom);
 }
@@ -196,7 +204,7 @@ function init() {
   setInitialState();
 
   fetchTaxonomy().then((taxObj) => {
-    enableFilter(taxObj)
+    enableFilter(taxObj);
   });
 
   for (const control of dom.controls) {

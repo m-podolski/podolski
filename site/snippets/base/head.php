@@ -6,16 +6,16 @@
 <meta name="robots" content="index, follow">
 <meta name="description" content="<?= $page->description() ?>">
 
-<!-- <meta property="og:type" content="article">
+<meta property="og:type" content="article">
 <meta property="og:title" content="<?= $page->title() ?>">
 <meta property="og:url" content="<?= $page->url() ?>">
 <meta property="og:site_name" content="<?= $site->title() ?>">
-<meta property="og:description" content="<?= $page->description() ?>"> -->
+<meta property="og:description" content="<?= $page->description() ?>">
 <!-- og:image in templates -->
 
-<!-- <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="<?= $page->title() ?>">
-<meta name="twitter:description" content="<?= $page->description() ?>"> -->
+<meta name="twitter:description" content="<?= $page->description() ?>">
 <!-- twitter:image in templates -->
 
 <meta name="application-name" content="<?= $site->title() ?>">
@@ -24,7 +24,8 @@
 <meta name="msapplication-navbutton-color" content="#0045e6">
 
 <?= js('@auto', ['type' => 'module']) ?>
-<?= css('assets/css/lib/normalize.css') ?>
+<?= js('assets/vendor/vue/vue.js') ?>
+<?= css('assets/vendor/normalize.css/normalize.css') ?>
 <?= css('@auto') ?>
 
 <link rel="manifest" href="manifest.webmanifest">

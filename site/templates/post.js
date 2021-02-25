@@ -1,13 +1,13 @@
 
 import {
-  init as initNav
-  } from '../navigation.js';
+  init as initNav,
+} from '../snippets/navigation/navigation.js';
 import {
-  init as initContactForm
-} from '../contactform.js';
+  placeIcons,
+} from '../snippets/icons/icon-iterator.js';
 import {
-  placeIcons
-} from '../icon-iterator.js';
+  init as initContactForm,
+} from '../snippets/forms/contactform.js';
 
 initNav();
 initContactForm();
