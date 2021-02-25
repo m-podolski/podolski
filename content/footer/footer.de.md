@@ -30,10 +30,6 @@ Social Media:
   LinkedIn:
     icon: "{{icon-linkedin-white.svg}}"
     link: "(link: https://www.linkedin.com/in/m-podolski target: _blank text: linkedin.com/in/m-podolski)"
-
-  Xing:
-    icon: "{{icon-xing-white.svg}}"
-    link: "(link: https://www.xing.com/profile/malte_podolski2/cv target: _blank text: xing.com/profile/malte_podolski2/cv)"
 ----
 navigation_heading:
 

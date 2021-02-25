@@ -55,7 +55,6 @@ function setInitialState() {
 }
 
 function validateInput() {
-debugger;
   if (this.validity.valid) {
     // Content-display-state
     this.nextElementSibling.style[conf.contentState.property] = conf.contentState.valid;

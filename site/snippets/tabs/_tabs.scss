@@ -54,11 +54,11 @@ $tabs-breakpoint: 45em;
   grid-template-columns: 2fr 3fr;
   column-gap: calc( #{base.$unit} * 0.4 );
   padding: calc( #{base.$unit} * 0.4 );
-  color: colours.$site-btn-pri-light;
+  color: colours.$site-btn-pri;
   &:link,
   &:visited {
     text-decoration: unset;
-    color: colours.$site-btn-pri-light;
+    color: colours.$site-btn-pri;
   }
   &:hover,
   &:focus {

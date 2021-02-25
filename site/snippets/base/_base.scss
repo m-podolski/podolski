@@ -152,54 +152,45 @@ h1 {
 
 .button-primary {
   @extend %button;
-  background: linear-gradient(
-    0deg,
-    colours.$site-btn-pri-dark,
-    colours.$site-btn-pri-light);
+  background: colours.$site-btn-pri;
   border-color: colours.$site-btn-pri-cont;
   &:hover:not(.button-disabled),
   &:focus:not(.button-disabled) {
     background: colours.$content-running-text-bright;
-    border-color: colours.$site-btn-pri-dark;
-    color: colours.$site-btn-pri-dark;
+    border-color: colours.$site-btn-pri;
+    color: colours.$site-btn-pri;
   }
   &:active:not(.button-disabled),
   &.selected:not(.button-disabled) {
     background: colours.$content-running-text-bright;
     border-color: colours.$site-nav-ind;
-    color: colours.$site-btn-pri-dark;
+    color: colours.$site-btn-pri;
     font-style: italic;
   }
 }
 
 .button-secondary {
   @extend %button;
-  background: linear-gradient(
-    0deg,
-    colours.$site-btn-sec-dark,
-    colours.$site-btn-sec-light);
+  background: colours.$site-btn-sec;
   border-color: colours.$site-btn-sec-cont;
   &:hover:not(.button-disabled),
   &:focus:not(.button-disabled) {
     background: colours.$content-running-text-bright;
-    border-color: colours.$site-btn-sec-dark;
-    color: colours.$site-btn-sec-dark;
+    border-color: colours.$site-btn-sec;
+    color: colours.$site-btn-sec;
   }
   &:active:not(.button-disabled),
   &.selected:not(.button-disabled) {
     background: colours.$content-running-text-bright;
     border-color: colours.$site-nav-ind;
-    color: colours.$site-btn-sec-dark;
+    color: colours.$site-btn-sec;
     font-style: italic;
   }
 }
 
 .button-tertiary {
   @extend %button;
-  background: linear-gradient(
-    0deg,
-    colours.$site-btn-ter-dark,
-    colours.$site-btn-ter-light);
+  background: colours.$site-btn-ter;
     border-color: colours.$site-btn-ter-cont;
     color: colours.$site-btn-ter-col;
   &:hover:not(.button-disabled),
@@ -212,7 +203,7 @@ h1 {
   &.selected:not(.button-disabled) {
     background: colours.$content-running-text-bright;
     border-color: colours.$site-nav-ind;
-    color: colours.$site-btn-pri-light;
+    color: colours.$site-btn-pri;
     font-style: italic;
   }
 }
