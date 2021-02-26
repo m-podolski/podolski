@@ -20,6 +20,7 @@
 <?= F::read('assets/svg/header-form.svg') ?>
 
 <main class="landmark main">
+  <?php snippet('vue/vue') ?>
   <?php snippet('wrapper/wrapper') ?>
 
   <?php if ($file = $page->files()->find('illustration-telescope.svg')): ?>

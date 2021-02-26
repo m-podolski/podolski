@@ -8,11 +8,11 @@ import {
 import {
   init as initContactForm,
 } from '../snippets/forms/contactform.js';
-// import {
-//   init as initProject
-//   } from '../data.js';
+import {
+  app,
+} from '../snippets/vue/vue-comp.js';
 
 initNav();
 placeIcons();
 initContactForm();
-// initProject();
+app;
