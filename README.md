@@ -1,6 +1,6 @@
 # podolski.de - My Personal Website
 
-![Icon](./assets/icon-152x152.png)
+![Icon](./icon-152x152.png)
 
 ## Scope
 This repo contains the current version of my personal/professional website. Its purpose is to mainly serve as a showcase for my **portfolio** of web development and graphic design projects but will also be a platform for a professionally-oriented **blog** which will discuss topics aimed at potential clients or employers.
@@ -37,7 +37,7 @@ Currently i work on getting deeper into the weeds of the Javascript ecosystem an
 ![Screenshot Portfolio](./README-screenshot4.png)
 
 ### Typography and SVG-Icons
-![Screenshot Typography and Icons](./README-screenshot6.png)
+![Screenshot Typography and Icons](./README-screenshot5.png)
 
 ### Blog with Taxonomy Info
 ![Screenshot Blog](./README-screenshot7.png)
