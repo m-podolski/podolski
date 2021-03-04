@@ -1,4 +1,3 @@
-
 @use "../base/base";
 @use "../base/colours";
 
@@ -21,7 +20,6 @@ $nav-breakpoint: 45em;
   background: colours.$site-bg;
 
   @media screen and (min-width: $nav-breakpoint) {
-
     top: 0;
     bottom: unset;
     height: auto;
@@ -44,7 +42,6 @@ $nav-breakpoint: 45em;
   }
 
   @media screen and (min-width: $nav-breakpoint) {
-
     display: none;
   }
 }
@@ -52,22 +49,22 @@ $nav-breakpoint: 45em;
 .nav-pri-list {
   order: 1;
   max-height: 100vh;
-  transition: max-height base.$contTrans ease-in-out;
+  transition: max-height base.$contentTrans ease-in-out;
   margin: unset;
   padding: unset;
-  background:
-  linear-gradient(260deg, colours.$site-bg, hsla(1,1%,1%,0) 100%), linear-gradient(140deg, colours.$site-hero-light, hsla(1,1%,1%,0) 100%), linear-gradient(380deg, colours.$site-hero-dark, colours.$site-hero-light 100%);
-  box-shadow: 0px 0.4rem 0.8rem hsla(222,100%,22%,0.2);
+  background: linear-gradient(260deg, colours.$site-bg, hsla(1, 1%, 1%, 0) 100%),
+    linear-gradient(140deg, colours.$site-hero-light, hsla(1, 1%, 1%, 0) 100%),
+    linear-gradient(380deg, colours.$site-hero-dark, colours.$site-hero-light 100%);
+  box-shadow: 0px 0.4rem 0.8rem hsla(222, 100%, 22%, 0.2);
 
   @media screen and (min-width: $nav-breakpoint) {
-
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    padding: 0 calc( #{base.$viewfactor} * 4 );
+    padding: 0 calc(#{base.$viewfactor} * 4);
 
     transform: translateY(0);
-    transition: transform base.$contTrans ease;
+    transition: transform base.$contentTrans ease;
   }
 }
 
@@ -76,7 +73,6 @@ $nav-breakpoint: 45em;
   overflow: hidden;
 
   @media screen and (min-width: $nav-breakpoint) {
-
     transform: translateY(-25vh);
   }
 }
@@ -84,16 +80,16 @@ $nav-breakpoint: 45em;
 .nav-item {
   list-style-type: none;
   &:first-child {
-    padding: calc( #{base.$viewfactor} * 3 ) 0 0 0;
+    padding: calc(#{base.$viewfactor} * 3) 0 0 0;
   }
   &:last-child {
-    padding: 0 0 calc( #{base.$viewfactor} * 3 ) 0;
+    padding: 0 0 calc(#{base.$viewfactor} * 3) 0;
   }
 
   @media screen and (min-width: $nav-breakpoint) {
-
     flex: 1 0 auto;
-    &:first-child, &:last-child {
+    &:first-child,
+    &:last-child {
       padding: 0;
     }
   }
@@ -102,7 +98,7 @@ $nav-breakpoint: 45em;
 .nav-link {
   @extend %button;
   display: block;
-  padding: calc( #{base.$viewfactor} * 2 ) calc( #{base.$viewfactor} * 3 );
+  padding: calc(#{base.$viewfactor} * 2) calc(#{base.$viewfactor} * 3);
   background: unset;
   color: colours.$content-running-text-bright;
   border: none;
@@ -118,8 +114,7 @@ $nav-breakpoint: 45em;
   }
 
   @media screen and (min-width: $nav-breakpoint) {
-
-    padding: calc( #{base.$viewfactor} * 2 ) 0;
+    padding: calc(#{base.$viewfactor} * 2) 0;
   }
 }
 

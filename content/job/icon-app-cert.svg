@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 800" class="icon icon-app-cert" style="display:none" aria-hidden="true">
+  <g id="icon-app-cert">
+    <circle id="background" class="app-cert-1" cx="400" cy="400" r="400"/>
+    <rect id="sheet" class="app-cert-2" x="220" y="180" width="360" height="440"/>
+    <g id="icon-benefits">
+      <path id="band" class="app-cert-3" d="M495.89,457l41,56.92h-60L444,563.4,420,495Zm-191.78,0-41,56.92h60l33,49.44L380,495Z"/>
+      <circle id="circle" class="app-cert-4" cx="400" cy="384.91" r="130"/>
+      <polygon id="star" class="app-cert-2" points="400 440.74 464.98 474.91 452.57 402.55 505.15 351.3 432.49 340.74 400 274.91 367.51 340.74 294.85 351.3 347.43 402.55 335.02 474.91 400 440.74"/>
+    </g>
+  </g>
+</svg>

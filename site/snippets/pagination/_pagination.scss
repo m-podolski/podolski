@@ -1,4 +1,3 @@
-
 @use "../base/base";
 @use "../base/colours";
 
@@ -6,7 +5,7 @@
   @extend %content;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  column-gap: calc( #{base.$unit} * 0.4 );
+  column-gap: calc(#{base.$unit} * 0.4);
 }
 
 .pagination-panel {
@@ -16,7 +15,7 @@
   border-radius: base.$roundness;
   background: colours.$content-extra-light;
   color: colours.$content-text-extra-dark;
-  transition: all base.$contTrans ease-in-out;
+  transition: all base.$contentTrans ease-in-out;
   text-decoration: none;
   &:hover,
   &:focus {
@@ -29,41 +28,29 @@
   }
 }
 
-.pagination-panel[data-pagination=prev] {
+.pagination-panel[data-pagination="prev"] {
   grid-column: 1 / 2;
   text-align: right;
 }
 
-.pagination-panel[data-pagination=next] {
+.pagination-panel[data-pagination="next"] {
   grid-column: 2 / 3;
   text-align: left;
 }
 
 .pagination-linktext {
   display: inline-block;
-  padding:
-    calc( #{base.$unit} * 0.4 )
-    calc( #{base.$unit} * 0.4 )
-    calc( #{base.$unit} * 0.2 )
-    calc( #{base.$unit} * 0.4 );
+  padding: calc(#{base.$unit} * 0.4) calc(#{base.$unit} * 0.4) calc(#{base.$unit} * 0.2) calc(#{base.$unit} * 0.4);
   @include base.font(800, italic, 0.7, body);
   color: colours.$content-text-medium;
 }
 
 .pagination-title {
   display: inline-block;
-  padding:
-    0
-    calc( #{base.$unit} * 0.4 )
-    calc( #{base.$unit} * 0.4 )
-    calc( #{base.$unit} * 0.4 );
+  padding: 0 calc(#{base.$unit} * 0.4) calc(#{base.$unit} * 0.4) calc(#{base.$unit} * 0.4);
 }
 
 .pagination-img {
   display: block;
-  border-radius:
-    0
-    0
-    base.$roundness
-    base.$roundness;
+  border-radius: 0 0 base.$roundness base.$roundness;
 }

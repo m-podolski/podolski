@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 800" class="icon icon-app-portfolio" style="display:none" aria-hidden="true">
+  <g id="icon-app-portfolio">
+    <circle id="background" class="app-por-1" cx="400" cy="400" r="400"/>
+    <g id="cog">
+      <path id="teeth" class="app-por-2" d="M546.58,339.14l-85.72-85.72L551.44,212,588,248.58ZM640,425.86v-51.7l-93.32-34.77V460.61ZM551.42,588,588,551.44l-41.39-90.58-85.72,85.72ZM374.14,640h51.7l34.77-93.32H339.39ZM212,551.42,248.56,588l90.58-41.39-85.72-85.72ZM160,374.14v51.7l93.32,34.77V339.39ZM248.58,212,212,248.56l41.39,90.58,85.72-85.72Zm177.28-52h-51.7l-34.77,93.32H460.61Z"/>
+      <path id="wheel" class="app-por-3" d="M400.11,220a180,180,0,1,0,180,180A180,180,0,0,0,400.11,220Zm0,270a90,90,0,1,1,90-90A90,90,0,0,1,400.11,490Z"/>
+    </g>
+  </g>
+</svg>
