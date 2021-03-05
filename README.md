@@ -21,10 +21,24 @@ While Kirby uses file-based routing with a partly predefined (page-based) archit
 
 Currently i work on getting deeper into the weeds of the Javascript ecosystem and work on an new version of this website based on **Vue**. Because of this and my current participation at the **[Digital Carreer Institute](https://digitalcarreerinstitute.org)** this project will remain unfinished for a while.
 
+**If you want to take a look at the code, these are the locations of interest:**
+
+`/site/templates`
+- contains the page templates along with their SCSS and JS entrypoints
+
+`/site/snippets`
+- contains the actual components which are assembled in the templates
+- `/navigation`, `/tabs` and `/taxonomy-filter` are made with a considerable amount of custom vanilla JS
+- the "root-component" is called `/base`
+
+`/site/controllers`
+- one of the few concessions to Kirby's architecture is that the controller-"entrypoints" and the components are mixed in this directory
+- `/taxonomy-filter` might be especially interesting here
+
 ## Impressions
 
 ### Navigation and CTA-Buttons
-![Screenshot Navigation CTA-Buttons](./README-screenshot9.png)
+![Mobile Navigation](./README-Navigation.gif)
 ![Screenshot Navigation CTA-Buttons](./README-screenshot1.png)
 
 ### Footer with Login and Contact Form
